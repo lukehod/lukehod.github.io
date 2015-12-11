@@ -82,7 +82,7 @@
     </header>
 
   	<!-- Under Construction -->
-  	<section id="construction" class="construction">
+  	<!-- <section id="construction" class="construction">
   		<div class="container">
   			<div class="row">
   				<div class="col-lg-12 text-center">
@@ -90,7 +90,7 @@
   				</div>
   			</div>
   		</div>
-  	</section>
+  	</section> -->
 
     <!-- About -->
     <section id="about" class="about">
@@ -203,11 +203,11 @@
     </section>
 
     <!-- Callout -->
-    <aside class="callout">
+    <!-- <aside class="callout">
         <div class="text-vertical-center">
             <h1>Vertically Centered Text</h1>
         </div>
-    </aside>
+    </aside> -->
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
@@ -219,8 +219,8 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                <a href="d3.html">
+                                    <img class="img-portfolio img-responsive" src="img/d3_graph.png">
                                 </a>
                             </div>
                         </div>
@@ -321,20 +321,20 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
+        // Closes the sidebar menu
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
 
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
 
-    // Scrolls to the selected menu item on the page
-    $(function() {
+        // Scrolls to the selected menu item on the page
+        $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 

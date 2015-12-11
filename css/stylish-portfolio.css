@@ -245,3 +245,14 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+/* chart */
+
+#chart {
+    min-height: 400px;
+}
+
+/* Modal */
+#modal_button {
+    margin-bottom: 30;
+}
