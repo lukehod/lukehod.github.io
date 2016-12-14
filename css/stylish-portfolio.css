@@ -254,5 +254,6 @@ footer {
 
 /* Modal */
 #modal_button {
-    margin-bottom: 30;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
