@@ -32,6 +32,7 @@ GEM
     mercenary (0.3.6)
     minima (2.1.1)
       jekyll (~> 3.3)
+    minitest (5.10.3)
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.1)
@@ -59,6 +60,7 @@ DEPENDENCIES
   jekyll (~> 3.6.2)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
+  minitest
   tzinfo-data
 
 BUNDLED WITH
