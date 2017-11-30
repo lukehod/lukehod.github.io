@@ -15,12 +15,13 @@
 # in the templates via {{ site.myvariable }}.
 title: Luke Hodnett
 email: lh@lukehod.net
+# NOTE: description will show up in site's RSS feed
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog and portfolio for Luke Hodnett software developer
   in Denver, CO.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: test
+twitter_username: HodnettLuke
 github_username: lukehod 
 
 # Build settings
