@@ -1,0 +1,41 @@
+[
+  {
+    "name":"C++",
+    "experience":null
+  },
+  {
+    "name":"Java",
+    "experience":null
+  },
+  {
+    "name":"Javascript",
+    "experience":null,
+    "associated":["JSON", "JQuery", "Node.js"]
+  },
+  {
+    "name":"Ruby",
+    "experience":null
+  },
+  {
+    "name":"C",
+    "experience":null
+  },
+  {
+    "name":"HTML / CSS",
+    "experience":null,
+    "associated":["Sass","Bootstrap"]
+  },
+  {
+    "name":"SQL",
+    "experience":null
+  },
+  {
+    "name":"Shell",
+    "experience":null,
+    "associated":["Bash"]
+  },
+  {
+    "name":"markdown",
+    "experience":null
+  }
+]

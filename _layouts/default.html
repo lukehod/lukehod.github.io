@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% seo %}
+  </head>
+
+  <body>
+    {% include preloader.html %}
+    {{ content }}
+    {% include scripts.html %}
+    {% if jekyll.environment == "production" %}
+      {% include analytics.html %}
+    {% endif %}
+  </body>
+</html>

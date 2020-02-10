@@ -1,77 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white w3-grayscale-min" id="mainbg">
+  {% include nav.html %}
+  <!-- Nav Button -->
+  <div class="w3-display-topleft w3-padding-large w3-xlarge"">
+    <!-- <button class="w3-margin-top w3-button w3-black w3-xlarge">☰</button> -->
+    <a href="mailto:hello@lukehod.net" class="w3-button w3-black w3-xlarge w3-margin-top w3-padding-large"><i class="fa fa-envelope"></i></a>
+  </div>
 
-<head>
-
-    <!-- Meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Personal website of Luke Hodnett. I am a programmer based in Denver, CO. Check out my work!">
-    <meta name="author" content="Luke Hodnett">
-    <meta name="keywords" content="Luke, Hodnett, Luke Hodnett, software design, software developer, Denver, Colorado, programmer, java, ruby, rails">
-    <meta name="robots" content="index">
-
-    <title>Luke Hodnett</title>
-
-  	<!-- Tab favicon from http://paulferrett.com/fontawesome-favicon/ -->
-  	<link rel="shortcut icon" type="image/x-icon" href="img/favicon-code.ico" />
-
-    <!-- Custom CSS -->
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="css/portfolio.css">
-
-    <!-- Custom Fonts -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-    <!-- Navigation -->
-	<div id="mySidenav" class="sidenav">
-	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	  <a href="#">About</a>
-	  <a href="/blog">Blog</a>
-	  <a href="#">Projects</a>
-	  <a href="#">Contact</a>
-	</div>
-
-	<!-- Title -->
-	<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-	  <div class="w3-display-topleft w3-padding-large w3-xlarge" onclick="openNav()">
-		<!-- <a href="javascript:void(0)" style="text-decoration: none">LH</a> -->
-		<button class="w3-margin-top w3-button w3-black w3-opacity w3-xlarge" onclick="w3_open()">☰</button>
-	  </div>
-	  <div class="w3-display-middle">
-  		<h1 class="w3-wide w3-jumbo w3-animate-top" style="text-shadow:1px 1px 0 #444"><b>Luke Hodnett</b></h1>
-  		<hr class="w3-border-grey" style="margin:auto;width:40%">
-  		<p class="w3-large w3-center">programmer, coffee lover</p>
-	  </div>
-	</div>
-
-  <!-- jQuery -->
-  <script src="js/jquery.js"></script>
-
-	<!-- Navagation Script -->
-	<script>
-	function openNav() {
-		document.getElementById("mySidenav").style.width = "250px";
-	}
-
-	function closeNav() {
-		document.getElementById("mySidenav").style.width = "0";
-	}
-	</script>
-
-</body>
-
-</html>
+  <!-- Center title area -->
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <!-- typed.js section for medium and large screens -->
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity w3-hide-small">
+      <div id="typed-strings">
+        <p>Luke Hodnett | coffee addict</p>
+        <p>Luke Hodnett | developer</p>
+      </div>
+      <span id="typed"></span>
+    </span>
+    <!-- Just name for small screens -->
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity w3-hide-medium w3-hide-large">
+    Luke Hodnett
+    </span>
+  </div>
+</div>

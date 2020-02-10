@@ -1,0 +1,31 @@
+---
+layout: page
+---
+
+<article class="w3-card-4 w3-margin w3-white">
+  <header class="w3-display-container post-header w3-mobile">
+    <img src="{{ site.baseurl }}{{ site.post_image_dir }}{{ page.image | default: "default.jpg" }}" style="width:100%" class="w3-image w3-grayscale-min">
+    <div class="w3-display-middle w3-auto w3-border-top w3-border-bottom" style="background: rgba(0, 0, 0, 0.8)">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="w3-contatiner w3-center post-author">
+        {% if page.author %}written by: <a href="https://lukehod.net/about">{{ page.author }}</a> {% endif %}
+      </div>
+    </div>
+  </header>
+
+  <div class="entry w3-container w3-mobile w3-left-align">
+    {{ content }}
+  </div>
+
+  <div class="w3-container date w3-right-align">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  <br>
+
+  <div class="w3-container">
+    {% if jekyll.environment == "production" %}
+      {% include disqus.html %}
+    {% endif %}
+  </div>
+</article>

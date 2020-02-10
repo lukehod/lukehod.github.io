@@ -1,0 +1,8 @@
+# Use this file to list people attributes that can be accessed with
+# liquid templates (e.g. {{site.data.people[page.author]}} if author:luke is
+# listed in the page's front matter). For more info and examples see:
+# https://jekyllrb.com/docs/datafiles/
+luke:
+  name: Luke Hodnett
+  github: lukehod
+  email: connect@lukehod.net
